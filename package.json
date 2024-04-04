@@ -2,16 +2,14 @@
   "name": "toxiclibsjs-examples",
   "version": "0.2.1",
   "description": "The website for toxiclibs.js",
-  "author": {
-    "name": "Kyle Phillips"
-  },
+  "author": "Kyle Phillips",
   "scripts": {
     "start": "node app.js --start"
   },
   "main": "./app.js",
   "repository": {
     "type": "git",
-    "url": "http://github.com/hapticdata/toxiclibsjs-examples.git"
+    "url": "git+ssh://git@github.com/hapticdata/toxiclibsjs-examples.git"
   },
   "licenses": [
     {
@@ -50,5 +48,10 @@
     "grunt-s3": "~0.2.0-alpha",
     "grunt-contrib-copy": "~0.4.1",
     "grunt-contrib-watch": "~0.5.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/hapticdata/toxiclibsjs-examples/issues"
+  },
+  "homepage": "https://github.com/hapticdata/toxiclibsjs-examples#readme",
+  "license": "ISC"
 }
